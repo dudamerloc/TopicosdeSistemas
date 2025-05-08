@@ -1,0 +1,34 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #524c4e; /* Cor de fundo escura */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b81; /* Rosa claro para o logo */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: #dcdcdc; /* Cor clara para os links */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6b81; /* Mudança de cor para rosa claro no hover */
+  }
+  
