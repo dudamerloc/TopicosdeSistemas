@@ -1,0 +1,70 @@
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* fundo branco */
+    border-radius: 12px;
+    border: 2px solid #ffcce0;
+    box-shadow: 0 0 12px rgba(255, 182, 193, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #cc3366;
+    margin-bottom: 24px;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #cc3366;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 12px;
+    border: 2px solid #ff99cc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #cc3366;
+    background-color: #fff5fa;
+    outline-color: #ff66a3;
+    transition: 0.2s ease;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #ff4d88;
+    background-color: #ffe0ec;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #ff4d88;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6005c;
+  }
+  
+  

@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import CadastrarProduto from "./pages/produtos/CadastrarProduto";
 import ListarProdutos from "./pages/produtos/ListarProdutos";
 //1 - Um componente SEMPRE deve começar com a primeira letra maiúscula
 //2 - Todo componente DEVE ser uma função do JS
@@ -9,7 +10,8 @@ function App() {
     <div>
       <Header />
 
-      <ListarProdutos />
+      {<ListarProdutos />}
+      <CadastrarProduto/>
       
     </div>
   );
